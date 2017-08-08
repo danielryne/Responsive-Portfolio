@@ -41,7 +41,6 @@ aside {
   overflow: hidden;
   float: right;
   margin-top: 30px;
-  margin-bottom: 10px;
   color: gray;
   font-size: 14px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -70,8 +69,8 @@ aside {
   overflow: hidden;
   float: right;
   text-align: center;  
-  margin-left: 30px;
-  padding: 30px;
+  margin-left: 20px;
+  padding: 20px;
   background-color: #ffffff;
 }
 
@@ -91,8 +90,9 @@ a.icons {
 
 #mypicture{
     float: left;
-    width: 200px;
+    width: 300px;
     margin-right: 10px;
+    margin-bottom: 10px; 
 }
 
 #port1{
@@ -140,7 +140,6 @@ a.icons {
     background-image: url("../images/portfolio/lorempixel-4.jpg");
 }
 
-
 #portname{
     width: 100%;
     padding: 10px; 
@@ -155,12 +154,18 @@ form{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/*
-#messagewindow{
-  height:200px;
-  width:400px;
+#name {
+  width: 95%;
 }
-*/
+
+#mail {
+  width: 95%; 
+}
+
+#messagewindow {
+  width: 95%;
+  height: 150px; 
+}
 
 #submitbutton{
     background-color: #4aaaa5;
@@ -183,4 +188,168 @@ footer {
   color: lightgray;
   font-size: 10px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+  
+  #bodyarea {
+    width: 400px;
+  }
+
+  #mypicture {
+    width: 300px;
+    margin-right: 0px;
+  }
+
+  #port1 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port2 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port3 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port4 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port5 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  #bodyarea {
+    width: 650px;
+  }
+
+  #mypicture {
+    width: 250px;
+    margin-right: 0px;
+  }
+
+#socialbox {
+  float: left;
+  text-align: left;    
+  margin-left: 0px;
+  width: 650px;
+  }
+
+  #port1{
+    float: left;
+    width: 275px; 
+    height: 200px;
+    margin: 10px 35px 10px 0px; 
+  }
+
+  #port2{
+      float: left;
+      width: 275px; 
+      height: 200px; 
+      margin: 10px 0px 10px 0px; 
+  }
+
+  #port3{
+      float: left;
+      width: 275px; 
+      height: 200px; 
+      margin: 10px 35px 10px 0px; 
+  }
+
+  #port4{
+      float: left;
+      width: 275px; 
+      height: 200px; 
+      margin: 10px 0px 10px 0px; 
+  }
+
+  #port5{
+      float: left;
+      width: 275px; 
+      height: 200px;  
+      margin: 10px 30px 10px 0px; 
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+  #bodyarea {
+    width: 90%;
+  }
+
+  #mypicture {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+#socialbox {
+  float: left;
+  text-align: left;    
+  margin-left: 0px;
+  width: 90%;
+  }  
+
+header {
+  padding-left: 0px; 
+  padding-right: 0px;
+}
+
+aside {
+  overflow: hidden;
+  float: top;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  margin-bottom: 0px;
+}
+
+#menu {
+  overflow: hidden;
+  float: top;
+  width: 100%;
+  text-align: center; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+  #port1 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port2 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port3 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port4 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #port5 {
+    width: 100%;  
+    margin: 10px 0px 10px 0px; 
+  }
+
 }
